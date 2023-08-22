@@ -83,4 +83,85 @@ button{
  
 }
 
- 
+.second-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.second-img{
+    border: 3px solid #3882F6;
+}
+
+
+
+.pair{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px;
+}
+
+.info-header{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.third{
+    background-color: #dedededc;
+    border-left-width: 10px;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-author{
+    font-size: 26px;
+    font-style: bold;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.quote-author::before{
+    content: "\2014";
+}
+
+.fourth{
+    background-color: #3882F6;
+    display: flex;
+    height: 180px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 2px dotted black;
+    align-items: center;
+    padding: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 15px;
+
+
+    
+
+
+}
+.cta-bold{
+    font-size: 36px;
+    color: #F9FAF8;
+    font-weight: bolder;
+    margin: 10px;
+
+}
+.cta-normal{
+    color: #E5E7EB;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.button2{
+    border:1px solid #F9FAF8;
+    font-size: larger;
+}
