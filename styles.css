@@ -1,0 +1,86 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.first{
+    background-color: #1F2937;
+    margin: 0;
+    padding-left: 50px;
+}
+
+
+a{
+    text-decoration: none;
+}
+a:visited { 
+    text-decoration: none; 
+    color: #E5E7EB; 
+ }
+
+.logo-text{
+    font-size: 24px;
+    color: #F9FAF8;
+
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 8px 16px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    margin-right: 200px;
+    font-size: 18px;
+    font-family: 'roboto',sans-serif;
+}
+
+.first-body{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.fb-text{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.awesome{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight:bolder;
+}
+
+.secondary-hero{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.img1{
+    display: flex;
+    align-items: center;
+    margin-right: 200px;
+    margin-bottom: 100px;
+    height: auto;
+    width: auto;
+}
+
+button{
+  padding: 8px 16px;
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #3882F6;
+  width: max-content;
+  color: #F9FAF8;
+
+ 
+}
+
+ 
